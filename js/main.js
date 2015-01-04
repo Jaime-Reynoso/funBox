@@ -1,0 +1,24 @@
+
+$(document).ready(function(){
+ $("#shareInfo").hover(function(){
+    $("#shareInfo").css("background-color","#256E5E");
+    $("#shareInfo").css("color","white");
+    },function(){
+    $("#shareInfo").css("background-color","whitesmoke");
+    $("#shareInfo").css("color","#256E5E");
+  });
+ $("#findInfo").hover(function(){
+    $("#findInfo").css("background-color","#256E5E");
+    $("#findInfo").css("color","white");
+    },function(){
+    $("#findInfo").css("background-color","whitesmoke");
+    $("#findInfo").css("color","#256E5E");
+  });
+  $("#enjoyInfo").hover(function(){
+    $("#enjoyInfo").css("background-color","#256E5E");
+    $("#enjoyInfo").css("color","white");
+    },function(){
+    $("#enjoyInfo").css("background-color","whitesmoke");
+    $("#enjoyInfo").css("color","#256E5E");
+  });
+});
